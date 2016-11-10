@@ -17,4 +17,6 @@
 
 const Route = use('Route')
 
-Route.on('/').render('welcome')
+Route.resource('/blog', 'BlogController')
+
+// Route.on('/').render('welcome')
